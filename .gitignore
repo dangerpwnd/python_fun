@@ -2107,3 +2107,4 @@ build/bookstore/warn-bookstore.txt
 build/bookstore/xref-bookstore.html
 __pycache__/bookstore.cpython-38.pyc
 bookstore.spec
+__pycache__/acc.cpython-38.pyc
