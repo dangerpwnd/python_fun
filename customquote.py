@@ -11,14 +11,15 @@ with urllib.request.urlopen("http://quotes.rest/qod.json?category=inspire") as u
 # Font, font size
 fnt=ImageFont.truetype(r'C:\Windows\Fonts\segoepr.ttf', 20)
 
-# Mode, (W,H), color
 if length > 170:
+    # Mode, (W,H), color
     img=Image.new('RGB',(2000,100),color=(255,255,255))
     d=ImageDraw.Draw(img)
     # (x,y), Text, alignment, font, font color
     d.multiline_text((35,30),quote,align="center",font=fnt,fill=(0,0,0))
     d.multiline_text((950,60),author,align="center",font=fnt,fill=(0,0,0))
 elif length > 150:
+    # Mode, (W,H), color
     img=Image.new('RGB',(1720,100),color=(255,255,255))
     d=ImageDraw.Draw(img)
     # (x,y), Text, alignment, font, font color
