@@ -1,11 +1,14 @@
 from PIL import Image, ImageDraw, ImageFont
 import urllib.request, json
+import random
 from dictor import dictor
 
-with urllib.request.urlopen("http://quotes.rest/qod.json?category=inspire") as url:
-    data = json.loads(url.read().decode())
-    quote = dictor(data, 'contents.quotes.0.quote', default="Missing Quote")
-    author = dictor(data, 'contents.quotes.0.author', default="Missing Author")
+ran=random.randrange(1,1643)
+
+with urllib.request.urlopen("https://type.fit/api/quotes") as url:
+    data=json.loads(url.read().decode())
+    quote=dictor(data, str(ran) + '.text', default="Missing Quote")
+    author=dictor(data, str(ran) + '.author', default="Missing Author")
 
 
 fnt=ImageFont.truetype(r'C:\Windows\Fonts\segoepr.ttf', 24)
