@@ -1,0 +1,42 @@
+15:10:14.823  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.000998] [0mnumpy init
+15:10:14.824  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.000997] [0mrollbar init
+15:10:14.827  [34mINFO    [39m [36mlore[39m:[36m61[39m => [32mpython_fun[39m in [34mtest[39m on [36mEric.M@CPT-WS-5B75[39m with [33mPython 3.8.0[39m & [33mLore 0.8.1[39m
+15:10:14.827  [38;5;239mDEBUG   [39m [36mlore[39m:[36m62[39m => python environment: c:\users\eric.m\documents\personal\python\python_fun\.python
+15:10:14.832  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.003989] [0mcheck requirements
+15:10:14.933  [34mINFO    [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.077793] [0mboot time
+15:10:14.939  [31mERROR   [39m [36mroot[39m:[36m334[39m => Traceback (most recent call last):
+  File "c:\python38\lib\runpy.py", line 192, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\python38\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\scripts\lore.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\lib\site-packages\lore\__main__.py", line 355, in main
+    known.func(known, unknown)
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\lib\site-packages\lore\__main__.py", line 828, in test
+    suite = unittest.defaultTestLoader.discover(env.TESTS_DIR)
+  File "c:\python38\lib\unittest\loader.py", line 346, in discover
+    raise ImportError('Start directory is not importable: %r' % start_dir)
+ImportError: Start directory is not importable: 'C:\\Users\\eric.m\\Documents\\Personal\\Python\\python_fun\\tests'
+
+15:12:40.857  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mnumpy init
+15:12:40.858  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.000997] [0mrollbar init
+15:12:40.861  [34mINFO    [39m [36mlore[39m:[36m61[39m => [32mpython_fun[39m in [34mtest[39m on [36mEric.M@CPT-WS-5B75[39m with [33mPython 3.8.0[39m & [33mLore 0.8.1[39m
+15:12:40.861  [38;5;239mDEBUG   [39m [36mlore[39m:[36m62[39m => python environment: c:\users\eric.m\documents\personal\python\python_fun\.python
+15:12:40.866  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.004988] [0mcheck requirements
+15:12:40.937  [34mINFO    [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.047876] [0mboot time
+15:12:40.941  [31mERROR   [39m [36mroot[39m:[36m334[39m => Traceback (most recent call last):
+  File "c:\python38\lib\runpy.py", line 192, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\python38\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\scripts\lore.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\lib\site-packages\lore\__main__.py", line 355, in main
+    known.func(known, unknown)
+  File "c:\users\eric.m\documents\personal\python\python_fun\.python\lib\site-packages\lore\__main__.py", line 828, in test
+    suite = unittest.defaultTestLoader.discover(env.TESTS_DIR)
+  File "c:\python38\lib\unittest\loader.py", line 346, in discover
+    raise ImportError('Start directory is not importable: %r' % start_dir)
+ImportError: Start directory is not importable: 'C:\\Users\\eric.m\\Documents\\Personal\\Python\\python_fun\\tests'
+

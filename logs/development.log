@@ -1,0 +1,91 @@
+15:06:33.920  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.000997] [0mnumpy init
+15:06:33.920  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mrollbar init
+15:06:33.924  [34mINFO    [39m [36mlore[39m:[36m61[39m => [32mpython_fun[39m in [32mdevelopment[39m on [36mEric.M@CPT-WS-5B75[39m with [33mPython 3.8.0[39m & [33mLore 0.8.1[39m
+15:06:33.924  [38;5;239mDEBUG   [39m [36mlore[39m:[36m62[39m => python environment: c:\users\eric.m\documents\personal\python\python_fun\.python
+15:06:33.927  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.002993] [0mcheck requirements
+15:06:34.051  [35mWARNING [39m [36margparse[39m:[36m120[39m => usage: lore [-h] [--version]
+            {env,init,api,console,exec,install,generate,fit,hyper_fit,server,pip,python,notebook,lab,task,test} ...
+
+positional arguments:
+  {env,init,api,console,exec,install,generate,fit,hyper_fit,server,pip,python,notebook,lab,task,test}
+                        common commands
+    env                 print lore.env variables for the current project
+    init                create a new lore project
+    api                 serve the api
+    console             launch an interactive python shell
+    exec                run a shell command in this project's virtual env
+    install             install dependencies in a virtualenv
+    generate            create a new model
+    fit                 train models
+    hyper_fit           search model hyper parameters
+    server              launch the flask server to provide an api to your models
+    pip                 pass a command to this project's virtual env pip
+    python              pass a command to this project's virtual env python
+    notebook            pass a command to this project's virtual env jupyter notebook
+    lab                 launch jupyter labs, with access to all envs
+    task                execute a task in the lore environment
+    test                run tests
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+15:06:34.056  [35mWARNING [39m [36margparse[39m:[36m120[39m => lore: error: invalid choice: '.\\python_fun\\' (choose from 'env', 'init', 'api', 'console', 'exec', 'install', 'generate', 'fit', 'hyper_fit', 'server', 'pip', 'python', 'notebook', 'lab', 'task', 'test')
+15:08:26.552  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mnumpy init
+15:08:26.552  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mrollbar init
+15:08:26.562  [34mINFO    [39m [36mlore[39m:[36m61[39m => [32mpython_fun[39m in [32mdevelopment[39m on [36mEric.M@CPT-WS-5B75[39m with [33mPython 3.8.0[39m & [33mLore 0.8.1[39m
+15:08:26.562  [38;5;239mDEBUG   [39m [36mlore[39m:[36m62[39m => python environment: c:\users\eric.m\documents\personal\python\python_fun\.python
+15:08:26.562  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mcheck requirements
+15:10:43.575  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.000997] [0mnumpy init
+15:10:43.575  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00] [0mrollbar init
+15:10:43.580  [34mINFO    [39m [36mlore[39m:[36m61[39m => [32mpython_fun[39m in [32mdevelopment[39m on [36mEric.M@CPT-WS-5B75[39m with [33mPython 3.8.0[39m & [33mLore 0.8.1[39m
+15:10:43.580  [38;5;239mDEBUG   [39m [36mlore[39m:[36m62[39m => python environment: c:\users\eric.m\documents\personal\python\python_fun\.python
+15:10:43.584  [38;5;239mDEBUG   [39m [36mlore.util.timer[39m:[36m211[39m => [1m[0:00:00.003990] [0mcheck requirements
+15:10:43.702  [35mWARNING [39m [36margparse[39m:[36m120[39m => usage: lore [-h] [--version]
+            {env,init,api,console,exec,install,generate,fit,hyper_fit,server,pip,python,notebook,lab,task,test} ...
+
+positional arguments:
+  {env,init,api,console,exec,install,generate,fit,hyper_fit,server,pip,python,notebook,lab,task,test}
+                        common commands
+    env                 print lore.env variables for the current project
+    init                create a new lore project
+    api                 serve the api
+    console             launch an interactive python shell
+    exec                run a shell command in this project's virtual env
+    install             install dependencies in a virtualenv
+    generate            create a new model
+    fit                 train models
+    hyper_fit           search model hyper parameters
+    server              launch the flask server to provide an api to your models
+    pip                 pass a command to this project's virtual env pip
+    python              pass a command to this project's virtual env python
+    notebook            pass a command to this project's virtual env jupyter notebook
+    lab                 launch jupyter labs, with access to all envs
+    task                execute a task in the lore environment
+    test                run tests
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+15:10:43.707  [35mWARNING [39m [36margparse[39m:[36m120[39m => lore: error: invalid choice: '.\\customquote.py' (choose from 'env', 'init', 'api', 'console', 'exec', 'install', 'generate', 'fit', 'hyper_fit', 'server', 'pip', 'python', 'notebook', 'lab', 'task', 'test')
+15:11:21.419  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => Traceback (most recent call last):
+15:11:21.421  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>   File "c:\python38\lib\runpy.py", line 192, in _run_module_as_main
+15:11:21.422  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>     
+15:11:21.423  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => return _run_code(code, main_globals, None,
+15:11:21.424  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => 
+15:11:21.425  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>   File "c:\python38\lib\runpy.py", line 85, in _run_code
+15:11:21.427  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>     
+15:11:21.428  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => exec(code, run_globals)
+15:11:21.429  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => 
+15:11:21.430  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>   File "C:\Python38\Scripts\lore.exe\__main__.py", line 7, in <module>
+15:11:21.432  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>   File "c:\python38\lib\site-packages\lore\__main__.py", line 355, in main
+15:11:21.433  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>     
+15:11:21.434  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => known.func(known, unknown)
+15:11:21.435  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => 
+15:11:21.436  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>   File "c:\python38\lib\site-packages\lore\__main__.py", line 608, in init
+15:11:21.438  [35mWARNING [39m [36mlore.util[39m:[36m120[39m =>     
+15:11:21.439  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => if os.listdir(root):
+15:11:21.441  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => 
+15:11:21.442  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => NotADirectoryError
+15:11:21.444  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => : 
+15:11:21.445  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => [WinError 267] The directory name is invalid: 'C:\\Users\\eric.m\\Documents\\Personal\\Python\\python_fun\\customquote.py'
+15:11:21.447  [35mWARNING [39m [36mlore.util[39m:[36m120[39m => 
