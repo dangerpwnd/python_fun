@@ -22,3 +22,6 @@ draw=ImageDraw.Draw(img)
 draw.multiline_text((0,0),quote,font=fnt,fill=(0,0,0))
 draw.multiline_text((fntsizea,30),author,font=fnt,fill=(0,0,0))
 img.save(r'C:\Users\Eric.M\Pictures\Quote.png')
+img.save(r'C:\Users\eric.m\AppData\Roaming\Microsoft\Signatures\Eric SysAdmin_files\image001.png')
+img.save(r'C:\Users\eric.m\AppData\Roaming\Microsoft\Signatures\Eric SysAdmin_files\image002.jpg')
+
