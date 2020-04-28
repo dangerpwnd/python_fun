@@ -8,3 +8,6 @@ bookstore.spec
 .python*
 customquote/Scripts*
 customquote/Lib*
+RESTApi_Test/RESTApi_test/pyvenv.cfg
+RESTApi_Test/RESTApi_test/Scripts*
+RESTApi_Test/RESTApi_test/Lib*
