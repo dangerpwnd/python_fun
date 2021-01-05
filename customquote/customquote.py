@@ -1,12 +1,12 @@
 from PIL import Image, ImageDraw, ImageFont
-import urllib.request, json
+import requests, json
 import random
 from dictor import dictor
 
 ran=random.randrange(1,1643)
 
-with urllib.request.urlopen("https://type.fit/api/quotes") as url:
-    data=json.loads(url.read().decode())
+with requests.get("https://type.fit/api/quotes", headers={'User-agent': 'Mozilla/5.0'}) as url:
+    data=json.loads(url.text)
     quote=dictor(data, str(ran) + '.text', default="Missing Quote")
     author=dictor(data, str(ran) + '.author', default="Missing Author")
 
